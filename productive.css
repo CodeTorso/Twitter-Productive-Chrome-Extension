@@ -1,0 +1,15 @@
+div[aria-label="Timeline: Your Home Timeline"] {
+  visibility: hidden;
+}
+
+div[aria-label="Timeline: Trending now"] {
+  display: none;
+}
+
+a[aria-label="Premium"], a[aria-label="Communities"], a[aria-label="Lists"], a[aria-label="Search and explore"], a[aria-label="Home"] {
+  display: none;
+}
+
+div[aria-label="Trending"] > div> :nth-child(n+3) {
+  display: none;
+}
