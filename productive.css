@@ -1,15 +1,54 @@
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fefefe;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ee5c5c;
+}
+
+body {
+  background-color: #0d1117 !important;
+}
+
+.css-1dbjc4n.r-1awozwy.r-aqfbo4.r-kemksi.r-18u37iz.r-1h3ijdo.r-6gpygo.r-15ysp7h.r-1xcajam.r-ipm5af.r-1hycxz.r-136ojw6 {
+  background-color: #0d1117 !important;
+}
+
+.css-1dbjc4n.r-kemksi.r-1kqtdi0.r-1ljd8xs.r-13l2t4g.r-1phboty.r-16y2uox.r-1jgb5lz.r-11wrixw.r-61z16t.r-1ye8kvj.r-13qz1uu.r-184en5c {
+  background-color: #07090c !important;
+}
+
+div[aria-label="Timeline: CodeTorso’s posts"] > div > div {
+  background: linear-gradient(45deg, rgba(27, 30, 90, 0.139), rgba(23, 14, 33, 0.417));
+}
+
 div[aria-label="Timeline: Your Home Timeline"] {
   visibility: hidden;
+  overflow: hidden;
+  height: 50vh;
 }
 
 div[aria-label="Timeline: Trending now"] {
   display: none;
 }
 
-a[aria-label="Premium"], a[aria-label="Communities"], a[aria-label="Lists"], a[aria-label="Search and explore"], a[aria-label="Home"] {
+a[aria-label="Premium"], a[aria-label="Communities"], a[aria-label="Lists"], a[aria-label="Search and explore"] {
   display: none;
 }
 
 div[aria-label="Trending"] > div> :nth-child(n+3) {
   display: none;
 }
+
